@@ -1,0 +1,6 @@
+train : /content/drive/My Drive/DeepX_G/yolov8_custom/train
+val : /content/drive/My Drive/DeepX_G/yolov8_custom/val
+
+nc : 1
+
+names : ["wanted"]
