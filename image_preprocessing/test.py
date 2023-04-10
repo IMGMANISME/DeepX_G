@@ -1,6 +1,5 @@
 import cv2
 import os
-import numpy as np
 
 input_dir = '/Users/gmansmacbook/Documents/DeepX_G/image_preprocessing/test'
 output_dir = '/Users/gmansmacbook/Documents/DeepX_G/image_preprocessing/test'
@@ -24,7 +23,7 @@ def gray_scale(img):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     return gray
 
-def remove_noise(img, kernel_size=(3, 3)):
+def remove_noise(img, kernel_size=(9 ,9)):
     """去除噪聲"""
     blurred = cv2.GaussianBlur(img, kernel_size, 0)
     return blurred
