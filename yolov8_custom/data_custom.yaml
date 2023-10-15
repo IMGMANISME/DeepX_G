@@ -1,6 +1,6 @@
-train : /content/drive/My Drive/DeepX_G/yolov8_custom/train
-val : /content/drive/My Drive/DeepX_G/yolov8_custom/val
+train : /content/drive/My Drive/yolov8_custom/train
+val : /content/drive/My Drive/yolov8_custom/val
 
-nc : 1
+nc : 2
 
-names : ["wanted"]
+names : ["dog","cat"]
