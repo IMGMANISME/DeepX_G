@@ -1,5 +1,5 @@
-train : /content/drive/My Drive/yolov8_custom/train
-val : /content/drive/My Drive/yolov8_custom/val
+train : /content/drive/My Drive/Deep_X_torch/yolov8_custom/train
+val : /content/drive/My Drive/Deep_X_torch/yolov8_custom/val
 
 nc : 2
 
